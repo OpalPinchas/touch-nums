@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opal's website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+    <div class="container">
+
+        <h1>Touch Nums</h1>
+        <div>
+            <h2>TIMER => <span class="timer"></span></h2>
+        </div>
+        <table class="board">
+
+        </table>
+        <button onclick="setDifficulty(16)">Eazy (16)</button>
+        <button onclick="setDifficulty(25)">Hard (25)</button>
+        <button onclick="setDifficulty(36)">Extreme (36)</button> <br>
+        <button onclick="startOver()">New Game</button>
+
+    </div>
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
